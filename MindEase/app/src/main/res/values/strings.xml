@@ -1,0 +1,35 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">MindEase</string>
+    
+    <!-- Main Activity -->
+    <string name="welcome_message">Welcome to MindEase</string>
+    <string name="mood_tracking">Mood Tracking</string>
+    <string name="ai_chatbot">AI Therapist</string>
+    <string name="crisis_mode">Crisis Help</string>
+    
+    <!-- Mood Tracking -->
+    <string name="log_mood">Log Your Mood</string>
+    <string name="mood_happy">Happy</string>
+    <string name="mood_sad">Sad</string>
+    <string name="mood_anxious">Anxious</string>
+    <string name="mood_angry">Angry</string>
+    <string name="mood_calm">Calm</string>
+    
+    <!-- Chatbot -->
+    <string name="chatbot_hint">How are you feeling today?</string>
+    <string name="send_button">Send</string>
+    
+    <!-- Crisis Mode -->
+    <string name="emergency_help">Emergency Help</string>
+    <string name="breathing_exercises">Breathing Exercises</string>
+    <string name="grounding_techniques">Grounding Techniques</string>
+    <string name="breathe_in">Breathe in deeply through your nose</string>
+    <string name="hold_breath">Hold your breath</string>
+    <string name="breathe_out">Exhale slowly through your mouth</string>
+    <string name="exercise_complete">Exercise complete! Feel better?</string>
+    
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+</resources>
