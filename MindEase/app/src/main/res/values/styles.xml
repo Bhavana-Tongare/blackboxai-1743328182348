@@ -1,0 +1,31 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Feature Button Style -->
+    <style name="FeatureButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Chat Message Style -->
+    <style name="ChatBubbleUser" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/chat_user_bg</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="ChatBubbleBot" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/chat_bot_bg</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+</resources>
