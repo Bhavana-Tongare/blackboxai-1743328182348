@@ -1,0 +1,31 @@
+<resources>
+    <!-- Primary colors -->
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#8BC34A</color>
+    
+    <!-- Background colors -->
+    <color name="background">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    
+    <!-- Text colors -->
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="hint_text">#BDBDBD</color>
+    
+    <!-- Mood colors -->
+    <color name="mood_happy">#FFC107</color>
+    <color name="mood_sad">#2196F3</color>
+    <color name="mood_anxious">#FF5722</color>
+    <color name="mood_angry">#F44336</color>
+    <color name="mood_calm">#9C27B0</color>
+    
+    <!-- Chat bubbles -->
+    <color name="chat_user_bg">#E3F2FD</color>
+    <color name="chat_bot_bg">#E8F5E9</color>
+    
+    <!-- Status colors -->
+    <color name="status_safe">#4CAF50</color>
+    <color name="status_warning">#FFC107</color>
+    <color name="status_danger">#F44336</color>
+</resources>
