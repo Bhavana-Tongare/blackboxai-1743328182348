@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/log_mood"
+            android:textSize="20sp"
+            android:textColor="@color/primary_text"
+            android:layout_marginBottom="16dp"/>
+
+        <RadioGroup
+            android:id="@+id/moodRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/happyRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mood_happy"
+                android:textColor="@color/primary_text"
+                android:buttonTint="@color/mood_happy"/>
+
+            <RadioButton
+                android:id="@+id/sadRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mood_sad"
+                android:textColor="@color/primary_text"
+                android:buttonTint="@color/mood_sad"/>
+
+            <RadioButton
+                android:id="@+id/anxiousRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mood_anxious"
+                android:textColor="@color/primary_text"
+                android:buttonTint="@color/mood_anxious"/>
+
+            <RadioButton
+                android:id="@+id/angryRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mood_angry"
+                android:textColor="@color/primary_text"
+                android:buttonTint="@color/mood_angry"/>
+
+            <RadioButton
+                android:id="@+id/calmRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mood_calm"
+                android:textColor="@color/primary_text"
+                android:buttonTint="@color/mood_calm"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/notesEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Additional notes"
+            android:background="@drawable/edit_text_background"
+            android:padding="8dp"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Mood"
+            android:layout_marginTop="16dp"
+            style="@style/FeatureButton"/>
+    </LinearLayout>
+</ScrollView>
